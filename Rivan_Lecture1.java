@@ -1,5 +1,6 @@
 public class Rivan_Lecture1 {
     public static void main(String[] args) {
+        //Part A
         System.out.println("My name is Rivan");
         System.out.println("My favorite movie is Indiana Jones");
         System.out.println("My favorite food is pasta");
