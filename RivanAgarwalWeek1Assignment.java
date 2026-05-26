@@ -30,15 +30,15 @@ public class RivanAgarwalWeek1Assignment {
         }
     }
     public static void countdownOddEven(){
-        int sum = 0;
-        for(int n = 10; n >= 1; n--){
-            if(n%2 == 0){
+        int sum = 0; //declaring initial sum variable which should be nothing
+        for(int n = 10; n >= 1; n--){ // declares a number variable which starts with ten, then increments down 1 each loop
+            if(n%2 == 0){ //checks if number is even by dividing by two and checking for remainder
                 System.out.println(n + " even");
             } else{
                 System.out.println(n + " odd");
             }
-            sum += n;
+            sum += n; // adds the current number to the sum variable each loop
         }
-        System.out.println(sum);
+        System.out.println(sum); //prints total sum
     }
 }
